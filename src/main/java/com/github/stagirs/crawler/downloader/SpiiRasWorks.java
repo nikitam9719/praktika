@@ -35,16 +35,16 @@ public class SpiiRasWorks extends Downloader {
     }
     @Override
     public void process(Session session) throws IOException, InterruptedException {
-            for (String release : getAvailableReleases()) {
-                if(!isNewRelease(release)){
-                    continue;
-                }
-                for(Record record : releaseDownload(release)){
-                    save(session, record);
-                }
-                save(release);
+        for (String release : getAvailableReleases()) {
+            if(!isNewRelease(release)){
+                continue;
             }
+            for(Record record : releaseDownload(release)){
+                save(session, record);
+            }
+            save(release);
         }
+    }
 
 
     private List<String> getAvailableReleases() throws IOException {
@@ -85,44 +85,57 @@ public class SpiiRasWorks extends Downloader {
         Record record = new Record();
         record.setType(Type.PAPER);
         Document doc=Jsoup.connect(url).get();
-        record.setUrl(url);
         record.setTitle(doc.select("h3").text());
-        record.setAnnotation(doc.select("#articleAbstract").first().childNode(5).childNode(0).toString());
+        System.out.println(record.getTitle());
+        if(doc.select("#articleFullText").size()!=0)
+            record.setUrl(doc.select("#articleFullText").first().childNode(3).attr("href"));
+        if(doc.select("#articleAbstract").first().childNode(5).childNode(0).toString().contains("<p>"))
+            record.setAnnotation(doc.select("#articleAbstract").first().childNode(5).childNode(0).childNode(0).toString());
+        else
+            record.setAnnotation(doc.select("#articleAbstract").first().childNode(5).childNode(0).toString());
         String[] parts = doc.select("#biblographyLink").get(0).childNode(3).toString().split("//")[1].replace(".","").replace("- ","-").split(" ");
         record.setSource("Труды СПИИРАН");
         record.setLocation("Санкт-Петербург");
         List<Author>authorlist = new ArrayList<>();
         Elements auth=doc.select("#authorString");
         if(!(auth.get(0).childNode(0).childNodes().isEmpty())){
-        String[] authors=auth.first().childNode(0).childNode(0).toString().split(",");
-        for(int j=0;j<authors.length;j++)
-        {
-            if(j==0)
+            String[] authors=auth.first().childNode(0).childNode(0).toString().split(",");
+            for(int j=0;j<authors.length;j++)
             {
-                String[] temp=authors[j].split(" ");
-                if(temp.length<2) {
-                    Author a = new Author(temp[0], " ");
-                    authorlist.add(a);
+                if(j==0)
+                {
+                    String[] temp=authors[j].split(" ");
+                    if(temp.length<2) {
+                        Author a = new Author(temp[0], " ");
+                        authorlist.add(a);
+                    }
+                    else{
+                        Author a;
+                        if(temp.length==2)
+                            a= new Author(temp[1],temp[0]);
+                        else
+                            a= new Author(temp[2],temp[0]+" "+temp[1]);
+                        authorlist.add(a);}
                 }
-                else{
-                    Author a= new Author(temp[1],temp[0]);
-                    authorlist.add(a);}
-            }
-            else {
-                if(authors[j].length()<2)
-                    continue;
-                String[] temp=authors[j].substring(1).split(" ");
-                if(temp.length<2) {
-                    Author a = new Author(temp[0], " ");
-                    authorlist.add(a);
+                else {
+                    if(authors[j].length()<2)
+                        continue;
+                    String[] temp=authors[j].substring(1).split(" ");
+                    if(temp.length<2) {
+                        Author a = new Author(temp[0], " ");
+                        authorlist.add(a);
+                    }
+                    else{
+                        Author a;
+                        if(temp.length==2)
+                            a= new Author(temp[1],temp[0]);
+                        else
+                            a= new Author(temp[2],temp[0]+" "+temp[1]);
+                        authorlist.add(a);}
                 }
-                else{
-                Author a= new Author(temp[1],temp[0]);
-                authorlist.add(a);}
-            }
 
-        }
-        record.setAuthors(authorlist);
+            }
+            record.setAuthors(authorlist);
         }
         String[] pages=parts[parts.length-1].split("-");
         record.setPages((parts[5] + "," + pages[0] + "," + pages[1]).trim());
