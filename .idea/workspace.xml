@@ -2,33 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76348dba-1e92-4604-a32f-b518e7d7f9a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/common/HashUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/common/document/Document.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/common/document/Point.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/common/document/Tag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/common/model/Block.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/common/model/Document.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/common/model/DocumentParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/common/model/DocumentSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/common/model/DocumentUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/common/model/Point.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/common/model/Section.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/common/model/Sentence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/common/model/Text.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/common/text/SentenceExtractor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/common/text/TextUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ChebishevWorks.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/InternationalJournalofOpenInformationTechnologies.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ItinProduction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/JournalofComputationalandEngineeringMathematics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/Mathmelpub.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/MaysWorks.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/OpenEducation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SystemsofControlCommunicationandSecurity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/vestnik_susu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/IspRasWorks/isp_29_2017_1_39" afterPath="$PROJECT_DIR$/src/test/resources/IspRasWorks/isp_29_2017_1_39" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/IspRasWorks.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/IspRasWorks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SpiiRasWorks.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SpiiRasWorks.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler.rar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ItinProduction.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ItinProduction.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItinProduction.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ItinProduction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ItinProduction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="53" column="65" lean-forward="true" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+            <state relative-caret-position="265">
+              <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1027#1028#0" expanded="true" />
@@ -134,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpiiRasWorks.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SpiiRasWorks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SpiiRasWorks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="33" column="83" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="83" />
+            <state relative-caret-position="252">
+              <caret line="114" column="48" lean-forward="false" selection-start-line="114" selection-start-column="47" selection-end-line="114" selection-end-column="48" />
               <folding>
                 <element signature="e#1000#1001#0" expanded="true" />
                 <element signature="e#1092#1093#0" expanded="true" />
@@ -205,7 +181,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/IspRasWorks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/IaeSrasWorks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/InternationalJournalofOpenInformationTechnologies.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SpiiRasWorks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/vestnik_susu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/OpenEducation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SystemsofControlCommunicationandSecurity.java" />
@@ -213,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/JournalofComputationalandEngineeringMathematics.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/MaysWorks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ChebishevWorks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SpiiRasWorks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ItinProduction.java" />
       </list>
     </option>
@@ -1247,7 +1223,7 @@
       <workItem from="1518432645464" duration="3433000" />
       <workItem from="1518467201673" duration="20705000" />
       <workItem from="1518532808184" duration="6979000" />
-      <workItem from="1518570564184" duration="3703000" />
+      <workItem from="1518570564184" duration="5461000" />
     </task>
     <task id="LOCAL-00001" summary="SpiiRas journal">
       <created>1514410525842</created>
@@ -1268,7 +1244,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56766000" />
+    <option name="totallyTimeSpent" value="58524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -1784,18 +1760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ItinProduction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="53" column="65" lean-forward="true" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/JournalofComputationalandEngineeringMathematics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1856,11 +1820,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SpiiRasWorks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="33" column="83" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="83" />
+        <state relative-caret-position="252">
+          <caret line="114" column="48" lean-forward="false" selection-start-line="114" selection-start-column="47" selection-end-line="114" selection-end-column="48" />
           <folding>
             <element signature="e#1000#1001#0" expanded="true" />
             <element signature="e#1092#1093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ItinProduction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
           </folding>
         </state>
       </provider>

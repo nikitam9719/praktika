@@ -86,8 +86,9 @@ public class ItinProduction extends Downloader {
         Document doc=Jsoup.connect(url).get();
         record.setTitle(doc.select("h3").text().replace("Refbacks",""));
         System.out.println(record.getTitle());
-        if(doc.select("#articleFullText").size()!=0)
-            record.setUrl(doc.select("#articleFullText").first().childNode(3).attr("href"));
+        //System.out.println(doc.select("#articleFullText").first().childNode(1).toString());
+        if((doc.select("#articleFullText").size()>2))
+            {record.setUrl(doc.select("#articleFullText").first().childNode(3).attr("href"));}
         if(doc.select("#articleAbstract").first().childNode(5).childNode(0).toString().contains("<p>"))
             record.setAnnotation(doc.select("#articleAbstract").first().childNode(5).childNode(0).childNode(0).toString());
         else
@@ -110,9 +111,9 @@ public class ItinProduction extends Downloader {
                     else{
                         Author a;
                         if(temp.length==2)
-                            a= new Author(temp[1],temp[0]);
+                            a= new Author(temp[0],temp[1]);
                         else
-                            a= new Author(temp[2],temp[0]+" "+temp[1]);
+                            a= new Author(temp[0],temp[1]+" "+temp[2]);
                         authorlist.add(a);}
                 }
                 else {
@@ -126,9 +127,9 @@ public class ItinProduction extends Downloader {
                     else{
                         Author a;
                         if(temp.length==2)
-                            a= new Author(temp[1],temp[0]);
+                            a= new Author(temp[0],temp[1]);
                         else
-                            a= new Author(temp[2],temp[0]+" "+temp[1]);
+                            a= new Author(temp[0],temp[1]+" "+temp[2]);
                         authorlist.add(a);}
                 }
 
