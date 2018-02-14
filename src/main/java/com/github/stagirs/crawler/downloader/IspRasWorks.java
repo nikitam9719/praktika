@@ -96,6 +96,8 @@ public class IspRasWorks extends Downloader{
         String[] parts = doc.select("p.izdanie").text().split(",");
         record.setSource(parts[0]);
         record.setLocation("Москва");
+        record.setYear(parts[3]);
+
         if(parts.length == 5){
             record.setPages((parts[1] + "," + parts[2] + "," + parts[4]).trim());
             record.setYear(parts[3].trim());

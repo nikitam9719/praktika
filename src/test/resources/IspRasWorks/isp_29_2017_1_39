@@ -21,12 +21,12 @@
   <link href="/bitrix/cache/css/s1/ispran/template_c1094cda9069c5285a9f9c94e729ec27/template_c1094cda9069c5285a9f9c94e729ec27_aff5a3c51de444b71f10a81ff6b96b13.css?150788162215117" type="text/css" data-template-style="true" rel="stylesheet"> 
   <script type="text/javascript">if(!window.BX)window.BX={message:function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;}};</script> 
   <script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script> 
-  <script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','USER_ID':'','SERVER_TIME':'1509893441','SERVER_TZ_OFFSET':'10800','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'043abbf84850eb4a69fe05f5c4df534f','SITE_ID':'s1'});</script> 
+  <script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','USER_ID':'','SERVER_TIME':'1514380123','SERVER_TZ_OFFSET':'10800','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'e57f467c8b984e07710aba686999946b','SITE_ID':'s1'});</script> 
   <script type="text/javascript" src="/bitrix/cache/js/s1/ispran/kernel_main/kernel_main.js?1507881904293544"></script> 
   <script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css','/bitrix/js/main/core/css/core_popup.css']); </script> 
   <script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core.js','/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/session.js','/bitrix/js/main/core/core_popup.js','/bitrix/js/main/json/json2.min.js','/bitrix/js/main/core/core_ls.js','/bitrix/js/main/core/core_window.js','/bitrix/js/main/utils.js']); </script> 
   <script type="text/javascript">
-bxSession.Expand(1440, '043abbf84850eb4a69fe05f5c4df534f', false, '5ea08244ae0b63280590e76c80734c7c');
+bxSession.Expand(1440, 'e57f467c8b984e07710aba686999946b', false, '042774012cec1d8e217588558d4cbbbf');
 </script> 
   <script type="text/javascript" src="/bitrix/cache/js/s1/ispran/template_e3bc9e7ecd63326a63570571f95e0ad8/template_e3bc9e7ecd63326a63570571f95e0ad8_81e8ccd076fc94de0deb2efc16504ad8.js?15078816221910"></script> 
   <script type="text/javascript" src="/bitrix/cache/js/s1/ispran/page_f4de073d9e5360dd2afb330cc2ddeefd/page_f4de073d9e5360dd2afb330cc2ddeefd_9e0c363b73d3560c9b9ec5d63855e9c2.js?150788206548550"></script> 
@@ -190,22 +190,22 @@ d.addEventListener("DOMContentLoaded", f, false);
         <li class="h-li li-in-pills"><a href="/proceedings/editorial_policies.php" class=" a-link-li " title="Политика издательства">Политика издательства</a></li> 
         <li class="h-li li-in-pills"><a href="/proceedings/author_guide.php" class=" a-link-li " title="Для авторов">Для авторов</a></li> 
         <li class="h-li li-in-pills"><a href="/proceedings/recent-issues.php" class=" a-link-li " title="Последние выпуски">Последние выпуски</a></li> 
-        <li class="h-li li-in-pills"><a href="/proceedings/isp_29_2017_4/" class=" a-link-li " title="Текущий выпуск">Текущий выпуск</a></li> 
+        <li class="h-li li-in-pills"><a href="/proceedings/isp_29_2017_5/" class=" a-link-li " title="Текущий выпуск">Текущий выпуск</a></li> 
         <li class="h-li li-in-pills"><a href="/proceedings/contacts.php" class=" a-link-li last" title="Контакты">Контакты</a></li> 
        </ul> 
        <br> 
        <h3 class="title-container"> Новости</h3> 
        <div class="news first-news"> 
-        <span class="title-news"><span class="circle">20</span> Октября, 2017</span> 
-        <a href="/news/zashchita_dissertatsiy-21.12.17/" class="text_new">Защита диссертаций</a> 
+        <span class="title-news"><span class="circle">15</span> Декабря, 2017</span> 
+        <a href="/news/arutyun-avetisyan-interview-poisk/" class="text_new">Общий код. Интервью Арутюна Аветисяна газете "Поиск"</a> 
        </div> 
        <div class="news "> 
-        <span class="title-news"><span class="circle">17</span> Октября, 2017</span> 
-        <a href="/news/workshops-ispras-open-2017/" class="text_new">Мастер-классы на конференции ISPRAS Open 2017</a> 
+        <span class="title-news"><span class="circle">15</span> Декабря, 2017</span> 
+        <a href="/news/zashchita_dissertatsiy-15.02.18/" class="text_new">Защита диссертаций</a> 
        </div> 
        <div class="news "> 
-        <span class="title-news"><span class="circle">11</span> Октября, 2017</span> 
-        <a href="/news/ispras-samsung-iot-mipt/" class="text_new">ИСП РАН и Samsung открывают IoT Академию в МФТИ</a> 
+        <span class="title-news"><span class="circle">13</span> Декабря, 2017</span> 
+        <a href="/news/isprasopen-2017-finished/" class="text_new">Открытая конференция ИСП РАН состоялась в Москве</a> 
        </div> 
       </div>
       <!--end news--> 
