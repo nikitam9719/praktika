@@ -77,7 +77,7 @@ public class MaysWorks extends Downloader {
         if(doc.select("#articleFullText").size()!=0)
             record.setUrl(doc.select("#articleFullText").first().childNode(3).attr("href"));
         record.setTitle(doc.select("h1").text());
-        System.out.println(record.getTitle());
+        //System.out.println(record.getTitle());
         if(doc.select("#articleAbstract").first().childNode(5).childNode(0).toString().contains("<p>"))
             record.setAnnotation(doc.select("#articleAbstract").first().childNode(5).childNode(0).childNode(0).toString());
         else

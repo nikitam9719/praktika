@@ -85,7 +85,7 @@ public class ItinProduction extends Downloader {
         record.setType(Type.PAPER);
         Document doc=Jsoup.connect(url).get();
         record.setTitle(doc.select("h3").text().replace("Refbacks",""));
-        System.out.println(record.getTitle());
+        //System.out.println(record.getTitle());
         //System.out.println(doc.select("#articleFullText").first().childNode(1).toString());
         if((doc.select("#articleFullText").size()>2))
             {record.setUrl(doc.select("#articleFullText").first().childNode(3).attr("href"));}

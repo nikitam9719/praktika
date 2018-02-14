@@ -83,7 +83,7 @@ public class InternationalJournalofOpenInformationTechnologies extends Downloade
         record.setType(Type.PAPER);
         Document doc=Jsoup.connect(url).get();
         record.setTitle(doc.select("h3").text().replace("Refbacks",""));
-        System.out.println(record.getTitle());
+        //System.out.println(record.getTitle());
         if(doc.select("#articleFullText").size()!=0)
             record.setUrl(doc.select("#articleFullText").first().childNode(3).attr("href"));
         if(doc.select("#articleAbstract").first().childNode(5).childNode(0).toString().contains("<p>"))

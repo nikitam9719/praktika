@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76348dba-1e92-4604-a32f-b518e7d7f9a1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler.rar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ChebishevWorks.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ChebishevWorks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/InternationalJournalofOpenInformationTechnologies.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/InternationalJournalofOpenInformationTechnologies.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ItinProduction.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ItinProduction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/JournalofComputationalandEngineeringMathematics.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/JournalofComputationalandEngineeringMathematics.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/Mathmelpub.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/Mathmelpub.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/MaysWorks.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/MaysWorks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/OpenEducation.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/OpenEducation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SpiiRasWorks.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SpiiRasWorks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/vestnik_susu.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/vestnik_susu.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +35,8 @@
       <file leaf-file-name="SystemsofControlCommunicationandSecurity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SystemsofControlCommunicationandSecurity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="65" column="71" lean-forward="false" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
+            <state relative-caret-position="378">
+              <caret line="139" column="16" lean-forward="false" selection-start-line="139" selection-start-column="10" selection-end-line="139" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,11 +44,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vestnik_susu.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="vestnik_susu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/vestnik_susu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="58" column="45" lean-forward="false" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+            <state relative-caret-position="238">
+              <caret line="83" column="10" lean-forward="false" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mathmelpub.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/Mathmelpub.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="81" column="10" lean-forward="false" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,8 +71,8 @@
       <file leaf-file-name="MaysWorks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/MaysWorks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="87" column="33" lean-forward="false" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+            <state relative-caret-position="76">
+              <caret line="79" column="10" lean-forward="false" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItinProduction.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItinProduction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ItinProduction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+            <state relative-caret-position="180">
+              <caret line="87" column="10" lean-forward="false" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1027#1028#0" expanded="true" />
@@ -76,24 +94,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mathmelpub.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/Mathmelpub.java">
+      <file leaf-file-name="JournalofComputationalandEngineeringMathematics.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/JournalofComputationalandEngineeringMathematics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="125" column="5" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="125" selection-end-column="5" />
+            <state relative-caret-position="299">
+              <caret line="77" column="10" lean-forward="false" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IspRasWorks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/IspRasWorks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -101,8 +111,8 @@
       <file leaf-file-name="ChebishevWorks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ChebishevWorks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="46" column="58" lean-forward="false" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
+            <state relative-caret-position="221">
+              <caret line="79" column="10" lean-forward="false" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,8 +123,8 @@
       <file leaf-file-name="SpiiRasWorks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SpiiRasWorks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="114" column="48" lean-forward="false" selection-start-line="114" selection-start-column="47" selection-end-line="114" selection-end-column="48" />
+            <state relative-caret-position="65">
+              <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
               <folding>
                 <element signature="e#1000#1001#0" expanded="true" />
                 <element signature="e#1092#1093#0" expanded="true" />
@@ -123,24 +133,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JournalofComputationalandEngineeringMathematics.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/JournalofComputationalandEngineeringMathematics.java">
+      <file leaf-file-name="OpenEducation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/OpenEducation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="85" column="10" lean-forward="false" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OpenEducation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/OpenEducation.java">
+      <file leaf-file-name="InternationalJournalofOpenInformationTechnologies.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/InternationalJournalofOpenInformationTechnologies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="82" column="52" lean-forward="false" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
-              <folding />
+            <state relative-caret-position="116">
+              <caret line="85" column="10" lean-forward="false" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,6 +167,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>get</find>
+      <find>System</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -180,16 +191,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/MsuCmcWorks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/IspRasWorks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/IaeSrasWorks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/InternationalJournalofOpenInformationTechnologies.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/vestnik_susu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/OpenEducation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SystemsofControlCommunicationandSecurity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/Mathmelpub.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/JournalofComputationalandEngineeringMathematics.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/MaysWorks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ChebishevWorks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SpiiRasWorks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/InternationalJournalofOpenInformationTechnologies.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ItinProduction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/JournalofComputationalandEngineeringMathematics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/Mathmelpub.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/MaysWorks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/OpenEducation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SpiiRasWorks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/vestnik_susu.java" />
       </list>
     </option>
   </component>
@@ -1223,7 +1234,7 @@
       <workItem from="1518432645464" duration="3433000" />
       <workItem from="1518467201673" duration="20705000" />
       <workItem from="1518532808184" duration="6979000" />
-      <workItem from="1518570564184" duration="5461000" />
+      <workItem from="1518570564184" duration="5674000" />
     </task>
     <task id="LOCAL-00001" summary="SpiiRas journal">
       <created>1514410525842</created>
@@ -1244,7 +1255,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58524000" />
+    <option name="totallyTimeSpent" value="58737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -1732,29 +1743,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/InternationalJournalofOpenInformationTechnologies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="35" column="14" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ChebishevWorks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="46" column="58" lean-forward="false" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/IspRasWorks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="-1462">
           <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
           <folding />
         </state>
@@ -1763,7 +1754,41 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/JournalofComputationalandEngineeringMathematics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="54" />
+          <caret line="77" column="10" lean-forward="false" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ItinProduction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="87" column="10" lean-forward="false" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/InternationalJournalofOpenInformationTechnologies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="85" column="10" lean-forward="false" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ChebishevWorks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="79" column="10" lean-forward="false" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1772,8 +1797,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/Mathmelpub.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="125" column="5" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="125" selection-end-column="5" />
+        <state relative-caret-position="142">
+          <caret line="81" column="10" lean-forward="false" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1782,8 +1807,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/MaysWorks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="87" column="33" lean-forward="false" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+        <state relative-caret-position="76">
+          <caret line="79" column="10" lean-forward="false" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1792,16 +1817,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/OpenEducation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="82" column="52" lean-forward="false" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
+        <state relative-caret-position="176">
+          <caret line="85" column="10" lean-forward="false" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SpiiRasWorks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="88" column="10" lean-forward="false" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+          <folding>
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SystemsofControlCommunicationandSecurity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="65" column="71" lean-forward="false" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
+        <state relative-caret-position="378">
+          <caret line="139" column="16" lean-forward="false" selection-start-line="139" selection-start-column="10" selection-end-line="139" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1810,33 +1846,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/vestnik_susu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="58" column="45" lean-forward="false" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+        <state relative-caret-position="238">
+          <caret line="83" column="10" lean-forward="false" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/SpiiRasWorks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="114" column="48" lean-forward="false" selection-start-line="114" selection-start-column="47" selection-end-line="114" selection-end-column="48" />
-          <folding>
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/stagirs/crawler/downloader/ItinProduction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="92" column="17" lean-forward="true" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
           </folding>
         </state>
       </provider>
